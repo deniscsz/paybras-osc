@@ -76,6 +76,7 @@
                 <environment>0</environment>
                 <allowspecific>0</allowspecific>
                 <notification>1</notification>
+                <allvalidation>0</allvalidation>
 				<texttef>Após a confirmação do pedido você será redirecionado para o site do seu Banco</texttef>
             </paybrastef>
         </payment>

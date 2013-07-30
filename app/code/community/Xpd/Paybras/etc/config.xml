@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <config>
     <modules>
         <Xpd_Paybras>
@@ -143,13 +143,14 @@
             <paybras>
                 <active>1</active>
                 <model>paybras/standard</model>
-                <title>Paybras</title>
+                <title>Cartão de Crédito</title>
                 <installments>1</installments>
                 <cctypes>visa,mastercard,elo,amex,diners</cctypes>
                 <environment>0</environment>
                 <allowspecific>0</allowspecific>
                 <notification>1</notification>
                 <allvalidation>0</allvalidation>
+				<repay>1</repay>
             </paybras>
         </payment>
     </default>
