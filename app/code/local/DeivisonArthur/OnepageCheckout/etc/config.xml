@@ -257,7 +257,7 @@
                 <cpfcnpjtaxvat>hidden</cpfcnpjtaxvat>
                 <tipopessoa>required</tipopessoa>
                 <ie>required</ie>
-                <rgi>required</rgi>
+                <rgi>hidden</rgi>
                 <empresa>required</empresa>
                 <nomefantasia>required</nomefantasia>
                 <address>required</address>
@@ -281,7 +281,7 @@
                 <ieregistro>required</ieregistro>
                 <empresaregistro>required</empresaregistro>
                 <nomefantasiaregistro>required</nomefantasiaregistro>
-                <rgiregistro>required</rgiregistro>
+                <rgiregistro>hidden</rgiregistro>
                 <rgientrega>hidden</rgientrega>
                 <cpfentrega>hidden</cpfentrega>
             </outrasopcoes>
