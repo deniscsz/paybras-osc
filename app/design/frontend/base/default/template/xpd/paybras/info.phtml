@@ -33,7 +33,17 @@
 <?php endif; ?>
 
 <?php if($additionaldata["forma_pagamento"] == 'tef_bb'): ?>
+<p style="margin: 0;">Paybras</p>
+<?php if($additionaldata["tef_banco"] == 'tef_bb'): ?>
 <p style="margin: 0;">TEF via Banco do Brasil</p>
+<?php endif; ?>
+<?php if($additionaldata["tef_banco"] == 'tef_itau'): ?>
+<p style="margin: 0;">TEF via Itaú</p>
+<?php endif; ?>
+<?php if($additionaldata["tef_banco"] == 'tef_bradesco'): ?>
+<p style="margin: 0;">TEF via Bradesco</p>
+<?php endif; ?>
+
 <?php if($this->getRequest()->getControllerName() != 'onepage' && $this->getRequest()->getControllerName() != 'onepagecheckout'): ?>
 <?php if($this->returnUrlToRedirect()): ?>
 <p style="margin: 0;"><a href="<?php echo $this->returnUrlToRedirect(); ?>" target="_blank">Link para pagamento</a></p>

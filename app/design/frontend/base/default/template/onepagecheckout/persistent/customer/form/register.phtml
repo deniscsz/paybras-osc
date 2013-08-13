@@ -107,7 +107,7 @@ if ($jquery !== '0') :
                           <div class="field">
           	                <label <?php if ( $identidade  === 'required' ){ echo 'class="required"'; }?> > <?php if ( $identidade  === 'required' ){ echo '<em>*</em>'; }?><?php echo $this->__('Identidade') ?></label>
                               <div class="input-box">
-                                  <input type="text" name="rg" id="rg"  title="<?php echo $this->__('Identidade'); ?>" class="input-text validate-number <?php if($identidade === 'required'){ echo ' required-entry';} ?>" />
+                                  <input type="text" name="rg" id="rg"  title="<?php echo $this->__('Identidade'); ?>" class="input-text <?php if($identidade === 'required'){ echo 'validate-number required-entry';} ?>" />
                               </div>
                           </div>
                       <?php endif; ?>
